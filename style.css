@@ -334,8 +334,8 @@ a {
 
 /* Dark mode */
 body.dark-mode {
-    background-color: #121212;
-    color: #f38fa9;
+    background-color: #ffcff1 ;
+    color: #fff;
 }
 
 /* Light mode */
@@ -364,7 +364,7 @@ body.light-mode {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #ffcff1;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px;
