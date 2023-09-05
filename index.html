@@ -54,6 +54,14 @@
 				<h1>Hey, I'm a <span class="highlight">Full Stack</span> web developer.</h1>
 				<p>Hi I'm Andrei Kevin D. Casoco a freelance full stack web developer from Caloocan City and a 3rd Year College Student in University of Caloocan City.</p>
 				<a href="#contact" class="ctn">Contact</a>
+
+				<!-- dark mode/light mode theme-->
+				<br>
+				<h4>Dark/Light Theme</h4>
+					<label class="switch">
+						<input type="checkbox" id="modeToggle">
+						<span class="slider"></span>
+					</label>
 			</div>
 			<div class="col col-2">
 				<div class="hero-img">
@@ -254,6 +262,33 @@
 		togglebtn.addEventListener('click', ()=>{
 			navbar.classList.toggle('mobile-nav')
 		} )
+
+		const modeToggle = document.getElementById("modeToggle");
+		const body = document.body;
+
+		// Check if the user has a preferred mode set in their browser
+		const userPreferredMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+		// Function to set the theme
+		function setTheme(theme) {
+			body.className = theme + '-mode';
+			modeToggle.checked = theme === 'dark';
+		}
+
+		// Toggle the theme when the switch is clicked
+		modeToggle.addEventListener("change", () => {
+			const theme = modeToggle.checked ? 'dark' : 'light';
+			setTheme(theme);
+			localStorage.setItem("theme", theme);
+		});
+
+		// Initialize the theme based on user preference or saved setting
+		const savedTheme = localStorage.getItem("theme");
+		if (savedTheme) {
+			setTheme(savedTheme);
+		} else {
+			setTheme(userPreferredMode);
+		}
 	</script>
 </body>
 </html>
