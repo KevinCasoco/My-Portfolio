@@ -328,10 +328,11 @@ a {
 }
 
 /* additional */
+
 /* Dark mode */
 body.dark-mode {
     background-color: #121212;
-    color: #fff;
+    color: #f38fa9;
 }
 
 /* Light mode */
