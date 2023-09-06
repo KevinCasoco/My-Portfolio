@@ -335,7 +335,7 @@ a {
 /* Dark mode */
 body.dark-mode {
     background-color: #ffcff1 ;
-    color: #fff;
+    color: #333;
 }
 
 /* Light mode */
