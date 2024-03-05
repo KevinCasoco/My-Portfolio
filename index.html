@@ -1,442 +1,665 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="text-[14px] sm:text-[16px]">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kevs 404</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="./img/programmerist.png">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
 
-	<!-- Embeded Fontawesome Kit Link using kevs404official@gmail.com -->
-	<script src="https://kit.fontawesome.com/fed02266eb.js" crossorigin="anonymous"></script>
+  <!-- ion icons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-	<!-- Customize CSS -->
-	<link rel="stylesheet" href="./style.css">
-	
-	<!-- mobile responsive still fixing -->
-	<link rel="stylesheet" href="./mobile.css">
+  <!-- Tailwind CSS CDN Link -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Daisy Ui Links -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Andrei Kevin Casoco</title>
 </head>
-<body>
-	<nav class="navbar">
-		<div class="brand">
-			<img src="./img/programmerist.png" alt="logo" class="logo" id="home">
-		</div>
-		<div class="nav-list">
-			<ul>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#feedback">Feedback</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-		<div class="social-icons">
-			<ul>
-				<li><a href="https://www.facebook.com/kevs404/" class="fa fa-facebook"></a></li>
-				<li><a href="https://twitter.com/KevinCasoco" class="fa fa-twitter"></a></li>
-				<li><a href="https://github.com/KevinCasoco" class="fa fa-github"></a></li>
-				<li><a href="https://www.linkedin.com/in/andrei-kevin-casoco-60a560233/" class="fa fa-linkedin"></a></li>
-			</ul>
-		</div>	
-	</nav>
 
-	<div class="toggle-btn">
-		<i class="fa fa-bars"></i>
-	</div>
+<body style="font-family: Roboto, sans-serif;" class="bg-[#021227] text-[#cccccc]">
 
-	<!-- HEADER -->
-	<header class="header container">
-		<div class="circle"></div>
-		<div class="row hero">
-			<div class="col col-1">
-				<div class="animated-text">
-					<h2>Hey, I'm a Laravel Full Stack Web Developer.</h2>
-				</div>
+  <!-- ********************************************** -->
+  <!-- Header Section -->
+  <!-- ********************************************** -->
 
-				<p>Hi I'm Andrei Kevin D. Casoco from Caloocan City and a 4th Year College Student in University of Caloocan City.</p>
+  <header class="bg-[#021227] max-w-screen-xl	mx-auto px-4 py-6">
+    <nav class="">
+      <ul style="font-family: 'Roboto Mono', monospace;" class="flex justify-around font-semibold">
+        <!-- <li class=""><a href="#skills" class="transition-all hover:text-[#247032]">Skills</a></li> -->
+        <li class=""><a href="#projects" class="transition-all hover:text-[#247032]">Projects</a></li>
+        <li class=""><a href="#blogs" class="transition-all hover:text-[#247032]">Blogs</a></li>
+        <li class=""><a href="#contact" class="transition-all hover:text-[#247032]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-				<!-- Add a download link for the CV -->
-				<a href="./CASOCO, ANDREI KEVIN D. - RESUME.pdf"  class="ctn" 
-				 	download="Kevs404.pdf">
-					Download CV
-				</a><br>
 
-					<!-- dark mode/light mode theme-->
-					<h4>Dark/Light Theme</h4>
-						<label class="switch">
-							<input type="checkbox" id="modeToggle">
-							<span class="slider"></span>
-						</label>
-			</div>
+  <!-- ********************************************** -->
+  <!-- Hero Section -->
+  <!-- ********************************************** -->
 
-			<div class="col col-2">
-				<div class="hero-img">
-					<img src="./img/kev.jpg" alt="">
-				</div>
-			</div>
-		</div>
-	</header>
+  <section
+    class="flex flex-col-reverse sm:flex-row sm:justify-between	 lg:min-h-screen bg-[#021227] px-8 sm:px-16 py-4 max-w-screen-xl	mx-auto">
+    <!-- left side -->
+    <div class="sm:w-3/5">
+      <p style="font-family: 'Roboto Mono', monospace;" class="text-[#309543] font-semibold">Hi, my name is</p>
+      <h2 class="text-3xl lg:text-4xl xl:text-5xl	font-bold text-[#cccccc] mt-3 lg:mt-7">ANDREI KEVIN D. CASOCO</h2>
+      <h2 class="text-3xl lg:text-4xl xl:text-5xl	font-bold text-[#247032] mt-3 lg:mt-7">Full Stack Web Developer</h2>
+      <p class="mt-6 lg:mt-10 max-w-md	text-[#cccccc]">
+        I have a Bachelor's degree majored in Computer Engineering.
+        Currently I am focused on learning JavaScript Full Stack Web Development. <br>
+        I loved to build products that can be used by millions of people. <br>
+        <span style="font-family: 'Roboto Mono', monospace;" class="font-bold text-[#309543]">Open for Work &
+          Collaboration.</span>
+      </p>
+      <div class="mt-12">
+        <a href="#skills" style="font-family: 'Roboto Mono', monospace;"
+          class="px-6 py-3 text-[#309543] border-2 border-[#309543] font-bold transition-all hover:bg-[#30954232] rounded-md">Check
+          out
+          My
+          Skills !</a>
+      </div>
+      <!-- social Links -->
+      <div class="mt-12">
+        <ul class="flex gap-4">
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.linkedin.com/in/andrei-kevin-casoco-60a560233/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://github.com/KevinCasoco" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://twitter.com/KevinCasoco" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="https://www.facebook.com/kevs404/" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+          <li class="mr-2 flex justify-center items-center">
+            <a href="mailto: andreikevincasoco@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+              <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-	<!-- Skills-->
-	<section class="skills container">
-		<div id="skills">
-		<div class="title">
-			<h3>MY SKILLS</h3>
-			<h1>Programming Languages and Tools</h1>
-		</div>
-		<div class="grid-wrapper">
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo.png" alt="external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo"/>
-					<h2 style="padding-left: 5px;">LARAVEL</h2>
-				</div>
-				<p><span class="highlight">LARAVEL </span>is a free and open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model view controller (MVC) architectural pattern and based on Symfony.</p>
-			</div>
+    <!-- right side -->
+    <div class="hidden sm:block sm:w-2/5">
+      <img src="./images/kev.jpg" alt="hero-img" class="rounded-full">
+    </div>
+  </section>
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/javascript.png" alt="javascript"/>
-					<h2 style="padding-left: 5px;">JAVASCRIPT</h2>
-				</div>
-				<p><span class="highlight">JAVASCRIPT </span> it is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server.</p>
-			</div>
+  <!-- ********************************************** -->
+  <!-- tech stack Section -->
+  <!-- ********************************************** -->
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/php.png" alt="php"/>
-					<h2 style="padding-left: 5px;">PHP</h2>
-				</div>
-				<p><span class="highlight">PHP </span> it is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
-			</div>
+  <section class="bg-[#021227] px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+    <div class="">
+      <div class="flex justify-center items-center gap-12 pb-12">
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+        <h2 class="text-4xl font-bold">Tech Stack</h2>
+        <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      </div>
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/mysql.png" alt="mysql"/>
-					<h2 style="padding-left: 5px;">MYSQL</h2>
-				</div>
-				<p><span class="highlight">MYSQL </span>a relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data.</p>
-			</div>
+      <!-- skills -->
+      <div class="grid grid-cols-3  sm:grid-cols-5 gap-12" style="font-family: 'Roboto Mono', monospace;">
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/css3.png" alt="css3"/>
-					<h2 style="padding-left: 5px;">CASCADING STYLE SHEETS</h2>
-				</div>
-				<p><span class="highlight">CSS </span> it is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
-			</div>
+        <!-- Skill 01 -->
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">HTML</p>
+        </div>
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/>
-					<h2 style="padding-left: 5px;">GIT & GITHUB</h2>
-				</div>
-				<p><span class="highlight">Git </span>is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.</p>
-			</div>
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/000000/c-sharp-logo.png" alt="c-sharp-logo"/>
-					<h2 style="padding-left: 5px;">C#.NET</h2>
-				</div>
-				<p><span class="highlight">C# ( see SHARP) </span> encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.</p>
-			</div>
+        <!-- Skill 02 -->
 
-			<div class="grid-box">
-				<div class="icon-title">
-					<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/vb.png" alt="vb"/>
-					<h2 style="padding-left: 5px;">VB.NET</h2>
-				</div>
-				<p><span class="highlight">VB.NET </span> is a multi-paradigm, object-oriented programming language, implemented on .NET, Mono, and the .NET Framework.</p>
-			</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">CSS</p>
+        </div>
 
-			</div>
-		</div>
-	</section>
+        <!-- Skill 03 -->
 
-	<!-- PORTFOLIO -->
-	<section class="portfolio container">
-		<div id="portfolio">
-				<div class="title">
-					<h3>PORTFOLIO</h3>
-						<div class="ctn-title">
-							<h1>My Recent Works</h1>
-							<h4>Discover All Of My Projects on <a href="https://github.com/KevinCasoco"><span class="highlight">Github</span> <i class="fa fa-arrow-right"></i></a></h4>
-						</div>
-				</div>
+        <div class="flex flex-col items-center gap-2 ">
+          <img src="./images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc] text-center">Tailwind CSS</p>
+        </div>
 
-				<div class="grid-wrapper">
-					<div class="grid-box">
-						<!-- <p>Waste Disposal Tracking System</p> -->
-						<img src="./img/wtds-1.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
 
-					<div class="grid-box">
-						<img src="./img/wdts-4.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <!-- Skill 04 -->
 
-					<div class="grid-box">
-						<img src="./img/wdts-5.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">JavaScript</p>
+        </div>
+        <!-- Skill 04 -->
 
-					<div class="grid-box">
-						<img src="./img/wtds-2.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-react-80.svg" alt="javascript icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">React</p>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/wdts-6.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
 
-					<div class="grid-box">
-						<img src="./img/wdts-7.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <!-- Skill 05 -->
 
-					<div class="grid-box">
-						<img src="./img/wtds-3.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Git</p>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/wdts-8.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/laravel.webp" alt="laravel icon" class="w-24 h-24">
+          <p class="font-semibold text-[#cccccc]">Laravel</p>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/wdts-9.JPG" class="rad-img" alt="laravel">
-						<div class="hover">
-							<h4>LARAVEL AND TAILWIND</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/nodejs.svg" alt="node js icon" class="w-36 h-24">
+          <p class="font-semibold text-[#cccccc]">Node JS</p>
+        </div>
 
-					<div class="grid-box">
-						<!-- <p>Music Genre Information</p> -->
-						<img src="./img/project1.JPG" class="rad-img" alt="html">
-						<div class="hover">
-							<h4>HTML AND CSS</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/php.png" alt="php icon" class="w-36 h-24">
+          <p class="font-semibold text-[#cccccc]">PHP</p>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/project3.JPG" class="rad-img" alt="css">
-						<div class="hover">
-							<h4>HTML AND CSS</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <div class="flex flex-col items-center gap-2">
+          <img src="./images/mysql.png" alt="mysql icon" class="w-36 h-24">
+          <p class="font-semibold text-[#cccccc]">MySql</p>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/project2.jpg" class="rad-img" alt="VB.NET">
-						<div class="hover">
-							<h4>VB.NET AND MS ACCESS</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+      </div>
+    </div>
+  </section>
 
-					<div class="grid-box">
-						<!-- <p>Student Information System</p> -->
-						<img src="./img/project5.JPG" class="rad-img" alt="PHP AND MYSQL">
-						<div class="hover">
-							<h4>PHP AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+  <!-- ****************************************** -->
+  <!-- Some Things I’ve Built Section -->
+  <!-- ****************************************** -->
 
-					<div class="grid-box">
-						<img src="./img/project4.JPG" class="rad-img" alt="PHP AND MYSQL">
-						<div class="hover">
-							<h4>PHP AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="projects">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold text-center">Some Things I’ve Built</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
 
-					<div class="grid-box">
-						<img src="./img/project6.JPG" class="rad-img" alt="PHP AND MYSQL">
-						<div class="hover">
-							<h4>PHP AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+    <!-- featured projects -->
+    <div>
 
-					<div class="grid-box">
-						<!-- <p>Employee Management System</p> -->
-						<img src="./img/project7.JPG" class="rad-img" alt="C# AND MYSQL">
-						<div class="hover">
-							<h4>C# AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+      <!-- featured project 01 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20">
 
-					<div class="grid-box">
-						<img src="./img/project8.JPG" class="rad-img" alt="C# AND MYSQL">
-						<div class="hover">
-							<h4>C# AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-						</div>
-					</div>
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/waste-disposal.jpg" alt="waste disposal" class="">
+            </div>
+          </div>
+        </div>
 
-					<div class="grid-box">
-						<img src="./img/project9.JPG" class="rad-img" alt="C# AND MYSQL">
-						<div class="hover">
-							<h4>C# AND MYSQL</h4>
-							<a href="https://github.com/KevinCasoco" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</section>
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+          <h2 class="sm:text-end text-2xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. Waste Disposal Tracking System
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            This software keeps tabs on garbage pickup schedules, ensuring residents are informed, while helping authorities manage waste 
+            responsibly from start to finish. It's a step towards cleaner surroundings and greener practices. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>Laravel</li>
+              <li>JavaScript</li>
+              <li>Blade</li>
+              <li>MySql</li>
+              <li>Tailwind CSS</li>
+            </ul>
+            <ul class="flex gap-4 justify-end text-sm">
+              <li>Google Maps</li>
+              <li>Augmented Reality</li>
+              <li>Email</li>
+              <li>SMS</li>
+              <li>Weight Sensor</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/KevinCasoco/waste-disposal-tracking-system" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://wastedisposaltrackingsystem-2024.com/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
 
-	<!-- FEEDBACK-->
-	<section class="testimonials">
-		<div class="container" id="feedback">
+      </div>
 
-			<div class="title">
-				<h3>FEEDBACK</h3>
-				<h1>Clients Feedback</h1>
-			</div>
+      <!-- featured project 02 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
-			<div class="grid-wrapper">
-				<div class="grid-box">
-					<img src="./img/kevin.jpg" alt="">
-					<i class="fa fa-quote-left"></i>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, similique!</p>
-					<h4>Shauna Loresca</h4>
-					<p>Full Stack Web Developer</p>
-					<div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-					</div>
-				</div>
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">02. Food Expiry Reminder App
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            To develop a system that helps the users to have a well-organized food monitoring system, minimize food waste, 
+            and promptly notify users of approaching expiration dates to improve food safety. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>Laravel</li>
+              <li>JavaScript</li>
+              <li>Html</li>
+              <li>MySql</li>
+              <li>Tailwind CSS</li>
+            </ul>
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>QR Code Scanner</li>
+              <li>Email Notification</li>
+              <li>QR Code Generator</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/KevinCasoco/food-expiry-date-reminder" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://github-finder-react-app-01.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
 
-				<div class="grid-box">
-					<img src="./img/kevin.jpg" alt="">
-					<i class="fa fa-quote-left"></i>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, similique!</p>
-					<h4>Lucian Nami</h4>
-					<p>Front End Developer</p>
-					<div class="rating-1">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-					</div>
-				</div>
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/food-expiry.jpg" alt="rode website clone" class="food expiry">
+            </div>
+          </div>
+        </div>
 
-				<div class="grid-box">
-					<img src="./img/kevin.jpg" alt="">
-					<i class="fa fa-quote-left"></i>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, similique!</p>
-					<h4>Shauna Loresca</h4>
-					<p>Back End Developer</p>
-					<div class="rating-2">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-					</div>
-				</div>
+      </div>
 
-			</div>
-		</div>
-	</section>
+      <!-- featured project 03 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
-	<!-- CONTACT -->
-	<section class="contact">
-		<div class="container" id="contact">
-			<h3>OPEN FOR PROJECT COMMISSION</h3>
-			<h1>Got A Project! Just Contact Me!</h1>
-			<h3><i class="fa fa-envelope-o"></i> andreikevincasoco@gmail.com</h3>
-			<div class="quick-links">
-				<div class="brand"><img src="./img/programmerist.png" alt=""></div>
-				<ul>
-					<li><a href="#home">About</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#feedback">Feedback</a></li>		
-				</ul>
-			</div>
-		</div>
-	</section>
-	
-	<div class="copyright container">
-		<p>2024 Caloocan City, All Rights Reserved</p>
-	</div>
-	
-	<!-- inline javascript -->
-	<script>
-		let togglebtn = document.querySelector('.toggle-btn')
-		let navbar = document.querySelector('.navbar')
-		
-		togglebtn.addEventListener('click', ()=>{
-			navbar.classList.toggle('mobile-nav')
-		} )
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2 sm:order-none	">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/employee.png" alt="employee">
+            </div>
+          </div>
+        </div>
 
-		const modeToggle = document.getElementById("modeToggle");
-		const body = document.body;
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">03. Employee Management System
+          </h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-[#ffffff78]">
+            Employee Management system helps the organization to monitor the attendance of using qr code and also 
+            to check the performance of each employee in every department/ <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>C#</li>
+              <li>MySql</li>
+            </ul>
+            <ul class="flex gap-4 sm:justify-end text-sm">
+              <li>Qr Code Scanner</li>
+              <li>Attendance</li>
+              <li>Qr Code Generator</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+            <a href="https://github.com/prakash-naikwadi/shopify-clone" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://shopify-website-clone.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
 
-		// Check if the user has a preferred mode set in their browser
-		const userPreferredMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      </div>
 
-		// Function to set the theme
-		function setTheme(theme) {
-			body.className = theme + '-mode';
-			modeToggle.checked = theme === 'dark';
-		}
+      <!-- featured project 04 -->
+      <div class="flex flex-col sm:flex-row sm:gap-12 mt-20 sm:mt-20">
 
-		// Toggle the theme when the switch is clicked
-		modeToggle.addEventListener("change", () => {
-			const theme = modeToggle.checked ? 'dark' : 'light';
-			setTheme(theme);
-			localStorage.setItem("theme", theme);
-		});
+        <!-- right side -->
+        <div class="sm:w-1/2 h-[300px] flex flex-col justify-center">
+          <h2 class=" text-3xl font-bold mb-8 sm:relative sm:left-[10%] lg:left-1/4">04. Library Management System</h2>
+          <p
+            class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:left-[10%] lg:left-1/4 z-40 text-[#ffffff78]">
+            Library Management System helps the students and librarian to manage and monitor the books that being 
+            borrow and return by the students quickly. <br>
+            <span class="text-[#309543] font-medium">This Site is Fully Responsive</span>
+          </p>
+          <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:left-[10%] lg:left-1/4">
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>VB.NET</li>
+              <li>MS Access</li>
+            </ul>
+            <ul class="flex gap-4 justify-start text-sm">
+              <li>Borrow</li>
+              <li>Return</li>
+            </ul>
+          </div>
+          <div class="flex gap-4 mt-2 justify-start sm:relative sm:left-[10%] lg:left-1/4">
+            <a href="https://github.com/prakash-naikwadi/omnifood-start-up-html-css-js" target="_blank" class="w-9 h-9">
+              <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+            <a href="https://omnifood-ai-startup.netlify.app/" target="_blank" class="w-9 h-9">
+              <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+            </a>
+          </div>
+        </div>
 
-		// Initialize the theme based on user preference or saved setting
-		const savedTheme = localStorage.getItem("theme");
-		if (savedTheme) {
-			setTheme(savedTheme);
-		} else {
-			setTheme(userPreferredMode);
-		}
-	</script>
-	
+        <!-- left side -->
+        <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px]">
+          <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+            <div class="featured-project-img-01  transition-all	duration-500  ">
+              <img src="./images/library.png" alt="library">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Honorable Mentions -->
+    <div class="mt-20">
+      <h2 class="text-center text-3xl font-semibold">Contents</h2>
+
+      <!-- projects -->
+
+      <div class=" px-5 py-24">
+        <div class="flex flex-wrap gap-y-4 -m-4">
+
+          <!-- project 10 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/rode-website-clone.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Rode.com Clone</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/rode-website-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://rode-website-clone.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- project 11 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/paytm-screenshot.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Paytm.com Clone</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://github.com/prakash-naikwadi/paytm-clone" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="web-hosting-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-11.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Web Hosting Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/web-hosting-landing-page" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://web-hosting-landing-page-11.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 15 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="product-designer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-15.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Product Designer Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/product-designer-landing-page" target="_blank"
+                    class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://product-designer-landing-page-15.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 14 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="dance-home-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-14.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Dance Home Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/dance-home-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://dance-home-page-014.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]">
+                    </ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 13 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="saas-landing-page" class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-13.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Saas Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/saas-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://saas-landing-page-0013.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 12 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="business-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-12.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-bold text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Business Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/business-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://business-landing-page-0012.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project 9 -->
+          <div class=" lg:w-1/3 sm:w-1/2 p-4 bg-[#051830]">
+            <div class="flex relative mentions-project rounded-md">
+              <img alt="developer-landing-page"
+                class="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                src="./images/project-09.webp">
+              <div class="px-8 py-10 relative z-10 w-full bg-[#051830] transition-all opacity-0 hover:opacity-95">
+                <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">HTML CSS</h2>
+                <h1 class="title-font text-lg font-medium text-white mb-3">Developer Landing Page</h1>
+                <p class="leading-relaxed">
+                  This is a assignment given in "JavaScript Full Stack Web Developer Bootcamp" by iNeuron, built using
+                  HTML5 and CSS3.
+                </p>
+                <div class="flex gap-4 mt-2 justify-start">
+                  <a href="https://github.com/prakash-naikwadi/developer-landing-page" target="_blank" class="w-9 h-9">
+                    <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                  <a href="https://developer-landing-page-009.netlify.app/" target="_blank" class="w-9 h-9">
+                    <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[#309543]"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ****************************************** -->
+  <!-- Call To Action Section -->
+  <!-- ****************************************** -->
+
+  <section class="bg-[#021227] px-7 sm:px-14 py-16 max-w-screen-xl mx-auto" id="contact">
+    <div class="flex items-center justify-center gap-12 pb-12">
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+      <h2 class="text-4xl font-bold ">Get In Touch</h2>
+      <div class="h-px flex-1 bg-[#309543] hidden sm:block"></div>
+    </div>
+
+    <div class="mt-12 flex justify-center">
+      <ul class="flex gap-4">
+        <li class="mr-2 flex justify-center items-center">
+          <a href="mailto: andreikevincasoco@gmail.com" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="mail" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.linkedin.com/in/andrei-kevin-casoco-60a560233/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://github.com/KevinCasoco" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-github" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://twitter.com/KevinCasoco" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-twitter" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+        <li class="mr-2 flex justify-center items-center">
+          <a href="https://www.facebook.com/kevs404/" target="_blank" class="w-[35px] h-[35px]">
+            <ion-icon name="logo-instagram" class="w-[35px] h-[35px] transition-all hover:text-[#309543]"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
 </body>
+
 </html>
